@@ -1,0 +1,20 @@
+{
+  "build_entry_point": "docs",
+  "need_generate_pdf": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "fenxu_docs_repo_20160321",
+      "build_output_subfolder": "fenxu_docs_repo_20160321",
+      "locale": "de-de",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content"
+      },
+      "build_entry_point": "docs.ps1"
+    }
+  ],
+  "notification_subscribers": [],
+  "skip_source_output_uploading": false
+}
